@@ -1,0 +1,56 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+Copyright (C) 2024 Aman Pathak
+     Ranchi
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+                         Preamble
+
+The GNU Affero General Public License is a free software license that is intended to ensure that users have freedom in using, modifying, and sharing the software. The primary difference between the AGPL and the GNU General Public License (GPL) is that the AGPL requires that the source code be made available to users who interact with the software over a network, not just those who receive copies of the software.
+
+   0. Definitions.
+
+   "This License" refers to version 3 of the GNU Affero General Public License.
+
+   "The Program" refers to any software that is licensed under this License.
+
+   "Modified Version" means a work based on the Program, or on a work that is based on the Program.
+
+   "Source Code" for a work means the preferred form of the work for making modifications to it.
+
+   "Object Code" means any non-source form of a work.
+
+   "You" means the licensee, or the person or entity exercising permissions granted by this License.
+
+   "Network Interaction" means any interaction with a program over a network, including the use of a program via the internet or any other network.
+
+   1. Source Code.
+
+   The source code for a work is the preferred form of the work for making modifications to it. If the program is distributed in object code or executable form, the source code must be provided to recipients either by including it with the program or by providing a written offer to supply the source code.
+
+   2. Making Modified Versions.
+
+   You may modify the Program and use it for any purpose. However, if you distribute or offer the Program or any modified version, you must also make the modified source code available under this License.
+
+   3. Copyleft.
+
+   When you distribute the Program or any modified version, you must license it under this AGPL license, and you must include the same license text in the source code. This ensures that any derivative works or modifications are also freely available to the public.
+
+   4. Network Use.
+
+   If you modify the Program and use it over a network, you must make the source code available to users who interact with the Program over the network.
+
+   5. No Warranty.
+
+   The Program is distributed "as-is," without any warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose.
+
+   6. Licensing.
+
+   You may not impose any further restrictions on the rights granted by this License. For example, you may not impose a fee for access to the source code.
+
+   7. Acceptance.
+
+   By copying, modifying, or distributing the Program, you agree to abide by the terms of this License.
+
+For more information, see http://www.gnu.org/licenses/agpl-3.0.html.
