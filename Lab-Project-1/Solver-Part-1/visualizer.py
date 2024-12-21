@@ -117,7 +117,6 @@ class MazeVisualizer:
                 time.sleep(step_delay) 
                 step_index += 1
 
-
 # visualizer = MazeVisualizer(maze)
 # visualizer.visualize_simple()
 # visualizer.visualize_step_by_step(maze_steps, step_delay=1)

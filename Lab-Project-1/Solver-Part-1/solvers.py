@@ -56,7 +56,7 @@ def find_path_bfs(maze):
 
             # Store final state
             maze_states.append(maze)
-            return maze_states
+            return len(visited), maze_states
 
         for dx, dy in directions:
             nx, ny = x + dx, y + dy
@@ -120,7 +120,7 @@ def find_path_dfs(maze):
                     maze[px][py] = 'p'
             # Store the final maze
             maze_states.append(maze)
-            return maze_states
+            return len(visited), maze_states
 
         for dx, dy in directions:
             nx, ny = x + dx, y + dy
