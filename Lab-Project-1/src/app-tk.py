@@ -78,7 +78,7 @@ def run_performance_metrics(rows, cols, result_display):
 def run_gui():
     # Create the main window
     root = tk.Tk()
-    root.title("Maze Solver Performance")
+    root.title("Maze Solver")
 
     # Add dropdown for solve/analyze selection
     ttk.Label(root, text="Select Action:").grid(row=0, column=0)

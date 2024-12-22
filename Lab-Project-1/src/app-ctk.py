@@ -66,7 +66,7 @@ def run_performance_metrics(rows, cols, result_display):
 def run_gui():
     # Create the main window
     root = ctk.CTk()
-    root.title("Maze Solver Performance")
+    root.title("Maze Solver")
     root.geometry("600x600")  # Set a fixed window size for better layout
 
     # Add a frame to organize the layout
