@@ -1,9 +1,8 @@
 import pygame
-import sys
 import time
 
 class MazeVisualizer:
-    def __init__(self, maze_states, cell_size=40):
+    def __init__(self, maze_states):
         """
         Initialize the MazeVisualizer object.
 
@@ -15,18 +14,18 @@ class MazeVisualizer:
         """
         pygame.init()
         self.maze_states = maze_states
-        self.cell_size = cell_size
         self.grid_color = (200, 200, 200)  # Grid line color
-        self.path_color = (255, 255, 255)  # Path color
-        self.wall_color = (0, 0, 0)        # Wall color
-        self.start_color = (0, 255, 0)     # Start point color
+        self.path_color = (216, 220, 227)  # Path color
+        self.wall_color = (50, 50, 50)     # Wall color
+        self.start_color = (0, 0, 255)     # Start point color
         self.end_color = (255, 0, 0)       # End point color
-        self.visited_path_color = (0, 0, 255) # Path taken color
-        self.actual_path_color = (255, 255, 0) # Actual path color
+        self.visited_path_color = (153, 149, 255) # Visiting Nodes
+        self.actual_path_color = (0, 207, 39) # Actual path color
 
         # Determine the dimensions of the maze
         self.rows = len(maze_states[0])
         self.cols = len(maze_states[0][0])
+        self.cell_size = 800 / self.rows
         self.screen_width = self.cols * self.cell_size
         self.screen_height = self.rows * self.cell_size
         # Initialize the Pygame screen
