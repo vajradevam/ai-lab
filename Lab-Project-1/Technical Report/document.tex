@@ -17,6 +17,8 @@
 \usepackage{booktabs}
 \usepackage{lipsum}
 \usepackage{hyperref}
+\usepackage{mwe}
+\usepackage{shadowtext}
 
 \lstset{
 	language=Python,
@@ -45,14 +47,39 @@
 \setlength{\parskip}{1em}
 
 \usepackage{url}
-\title{\textbf{Maze solving using Intelligent Agents}}
-\author{Aman~Pathak$^{1}$}
-
-\affil{$^1$Kalinga Institute of Industrial Technology, Bhubaneshwar\\{\footnotesize apathakcse@gmail.com}}
-\date{}
 
 \begin{document}
-	\maketitle
+
+	\begin{titlepage}
+		\centering
+		\includegraphics[width=0.15\textwidth]{./assets/bw_kiit.png}\par\vspace{1cm}
+		{\LARGE \textsc{Kalinga Institute of Industrial Technology}\par}
+		{\textsc{Deemed to be University}\par}
+		\vspace{1cm}
+		{\Large \textsc{Lab Mini Project 1}\par}
+		\vspace{1.5cm}
+		{\huge\shadowtext{\textsc{Maze Solving using Intelligent Agents}}\par}
+		\vspace{1cm}
+			\begin{tabular}{ll}
+					\textsc{Abhinandan Maji}   & 2205784  \\
+					\textsc{Aditya Datta}      & 22051223 \\
+					\textsc{Aman Pathak}       & 22051662 \\
+					\textsc{Chayan Bera}       & 22051506 \\
+					\textsc{Devi Prasad Panda} & 22051511 \\
+					\textsc{Garv Agarwal}      & 22051159 \\
+					\textsc{Purbasha Nayak}    & 22051712 \\
+					\textsc{Rachit Raj Krishna} & 2205054  \\
+				\end{tabular}
+				\vspace{0.5cm}					
+		\vfill
+		supervised by\par
+		Dr.~Sambit \textsc{Praharaj}
+	
+		\vfill
+	
+	% Bottom of the page
+		{\large \today\par}
+	\end{titlepage}
 	
 	\section*{Abstract}
 	This report presents a mini-project on AI-powered maze solving using intelligent agents. The codebase implements both unidirectional and bidirectional versions of Breadth-First Search (BFS) and Depth-First Search (DFS). A comprehensive analysis of algorithms in terms of time complexity, space complexity, and path optimality is conducted. Performance is compared using metrics such as the number of nodes explored, execution time, and memory usage.
