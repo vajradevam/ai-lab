@@ -3,33 +3,48 @@ import random
 import networkx as nx
 import matplotlib.pyplot as plt
 
-def generate_random_graph(n):
-    """Generate a connected random graph with n nodes with black edges"""
-    G = nx.Graph()
-    
+import networkx as nx
+import random
+
+def generate_random_graph(n, sparsity=0.5):
+    """
+    Generate a connected random graph with n nodes with black edges and controlled sparsity.
+
+    Args:
+        n: The number of nodes in the graph.
+        sparsity: A value between 0 and 1 indicating the desired sparsity of the graph. 
+                 0 represents a very sparse graph, while 1 represents a very dense graph.
+
+    Returns:
+        A NetworkX Graph object.
+    """
     if n < 1:
-        return G
-    
+        return nx.Graph()
+
     # Generate node names as uppercase letters A, B, C, ...
     node_names = [chr(65 + i) for i in range(n)]
+    G = nx.Graph()
     G.add_nodes_from(node_names)
-    
+
     # Create a spanning tree to ensure connectivity 
     for i in range(1, n):
         current_node = node_names[i]
         parent = node_names[random.randint(0, i-1)]
         weight = random.randint(1, 10)
         G.add_edge(current_node, parent, weight=weight, color='black')
-    
+
+    # Calculate the number of extra edges based on sparsity
+    max_possible_edges = n * (n - 1) // 2  # Maximum possible edges in an undirected graph
+    num_extra_edges = int(sparsity * (max_possible_edges - (n - 1))) 
+
     # Add additional random edges 
-    max_extra_edges = n * 2
-    for _ in range(random.randint(0, max_extra_edges)):
+    for _ in range(num_extra_edges):
         u = random.choice(node_names)
         v = random.choice(node_names)
         if u != v and not G.has_edge(u, v):
             weight = random.randint(1, 10)
             G.add_edge(u, v, weight=weight, color='black')
-    
+
     return G
 
 def read_directed_graph(filename):

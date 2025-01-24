@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
-def visualize_ucs_path(G, path, cost, pos=None, seed=22051662, k=0.5):
+def visualize_path(algo, G, path, cost, pos=None, seed=22051662, k=0.5):
     """
-    Visualizes a graph with the Uniform Cost Search (UCS) path highlighted.
+    Visualizes a graph with the Algorithm path highlighted.
     
     Parameters:
     G (NetworkX Graph): The graph to visualize
@@ -88,7 +88,7 @@ def visualize_ucs_path(G, path, cost, pos=None, seed=22051662, k=0.5):
 
     # Enhanced legend
     legend_elements = [
-        plt.Line2D([0], [0], color='red', lw=4, label='UCS Path'),
+        plt.Line2D([0], [0], color='red', lw=4, label=f'{algo} Path'),
         plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='limegreen',
                    markersize=20, markeredgecolor='black', label=f'Start: {start_node}'),
         plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='tomato',
@@ -109,7 +109,7 @@ def visualize_ucs_path(G, path, cost, pos=None, seed=22051662, k=0.5):
     )
 
     # Final styling
-    plt.title(f"Uniform Cost Search: {start_node} → {end_node} (Cost: {cost})", 
+    plt.title(f"{algo}: {start_node} → {end_node} (Cost: {cost})", 
              fontsize=18, pad=20, fontweight='bold')
     plt.gca().set_facecolor('#f0f0f0')
     plt.grid(False)
