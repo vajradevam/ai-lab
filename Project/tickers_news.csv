@@ -1,21 +1,21 @@
 Symbol,Company Name,Sector,Previous Price,Predicted Price,Change ($),Change (%),New/Old Ratio,MSE,R2,Sentiment Score,Sentiment Validity
-AAPL,Apple Inc.,Technology,,,,,,,,0.3,0.7
-V,Visa Inc.,Financials,,,,,,,,0.8,0.9
-JNJ,Johnson & Johnson,Healthcare,,,,,,,,0.7,0.9
-PYPL,PayPal Holdings,Fintech,,,,,,,,0.7,0.9
+AAPL,Apple Inc.,Technology,,,,,,,,0.5,0.8
+V,Visa Inc.,Financials,,,,,,,,0.7,0.9
+JNJ,Johnson & Johnson,Healthcare,,,,,,,,0.65,0.9
+PYPL,PayPal Holdings,Fintech,,,,,,,,0.6,0.9
 JPM,JPMorgan Chase & Co.,Financials,,,,,,,,0.7,0.9
-WMT,Walmart Inc.,Consumer Staples,,,,,,,,0.6,0.8
-TSLA,Tesla Inc.,Consumer Discretionary,,,,,,,,0.3,0.7
-AMD,Advanced Micro Devices,Semiconductors,,,,,,,,0.2,0.8
-META,Meta Platforms (Facebook),Communication Services,,,,,,,,0.7,0.6
-MSFT,Microsoft Corp.,Technology,,,,,,,,0.3,0.7
-T,AT&T Inc.,Telecom,,,,,,,,0.7,0.8
-AMZN,Amazon.com Inc.,Consumer Discretionary,,,,,,,,0.7,0.9
-VZ,Verizon Communications,Telecom,,,,,,,,0.6,0.9
-ADBE,Adobe Inc.,Software,,,,,,,,0.6,0.9
-KO,Coca-Cola Co.,Consumer Staples,,,,,,,,0.6,0.9
-CRM,Salesforce Inc.,Cloud Computing,,,,,,,,0.75,0.9
-PG,Procter & Gamble,Consumer Staples,,,,,,,,0.6,0.9
-PFE,Pfizer Inc.,Healthcare,,,,,,,,0.1,0.9
-GOOGL,Alphabet Inc. (Google),Technology,,,,,,,,0.5,0.8
-NVDA,NVIDIA Corp.,Semiconductors,,,,,,,,0.3,0.9
+WMT,Walmart Inc.,Consumer Staples,,,,,,,,0.7,0.9
+TSLA,Tesla Inc.,Consumer Discretionary,,,,,,,,0.2,0.5
+AMD,Advanced Micro Devices,Semiconductors,,,,,,,,0.6,0.8
+META,Meta Platforms (Facebook),Communication Services,,,,,,,,0.6,0.9
+MSFT,Microsoft Corp.,Technology,,,,,,,,0.7,0.6
+T,AT&T Inc.,Telecom,,,,,,,,,
+AMZN,Amazon.com Inc.,Consumer Discretionary,,,,,,,,0.5,0.6
+VZ,Verizon Communications,Telecom,,,,,,,,,
+ADBE,Adobe Inc.,Software,,,,,,,,,
+KO,Coca-Cola Co.,Consumer Staples,,,,,,,,,
+CRM,Salesforce Inc.,Cloud Computing,,,,,,,,,
+PG,Procter & Gamble,Consumer Staples,,,,,,,,,
+PFE,Pfizer Inc.,Healthcare,,,,,,,,,
+GOOGL,Alphabet Inc. (Google),Technology,,,,,,,,0.2,0.7
+NVDA,NVIDIA Corp.,Semiconductors,,,,,,,,0.3,0.8
