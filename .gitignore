@@ -9,3 +9,4 @@ VENV/
 *.run.xml
 *.synctex.gz
 *.toc
+*.env
